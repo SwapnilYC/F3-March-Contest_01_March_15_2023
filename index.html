@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F2 Contest</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="heading">New Employees</h1>
+    </header>
+    <main>
+        <section id="input">
+            <div class="input">
+                <label for="name">Enter Name:</label><br>
+                <input type="text" id="name">
+            </div>
+
+            <div class="input">
+                <label for="profession">Enter Profession:</label><br>
+                <input type="text" id="profession">
+            </div>
+
+            <div class="input">
+                <label for="age">Enter Age:</label><br>
+                <input type="number" id="age">
+            </div>
+
+        </section>
+        <section id="addInputBtn">
+            <button id="addUserBtn">Add User</button>
+        </section>
+    </main>
+
+    <div class="alert">
+        <div class="hidden" id="success" style="color: green;">
+            Congratulations Employee Added Successfully🎉🎉🎉🎉🎉!!!!
+        </div>
+        <div class="hidden" id="error" style="color: red;">
+            Please make sure that, All the fields are filled before adding in an employee!
+        </div>
+    </div>
+
+    <p id="one">Added Employees</p>
+    <p id="two">You have 0 Employees</p>
+    <div class="employeeTable">
+        <table id="table">
+            <tbody id="tableBody">
+
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
