@@ -87,7 +87,7 @@ function displayUpdatedTable() {
     <tr>
     <td>Id: ${String(index + 1).padStart(2, '0')}.</td>
     <td>Name: ${element.Name}</td>
-    <td>Prefession: ${element.Profession}</td>
+    <td>Profession: ${element.Profession}</td>
     <td>Age: ${element.Age}</td>
     <td><button class="deleteButton" onclick="deleteUserWithIndex(${index})">Delete</button></td>
     </tr>`
